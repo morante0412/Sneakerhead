@@ -1,0 +1,239 @@
+/* basic styling */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #0070c0;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* brand block */
+#brand-block {
+  background-color: #fff;
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+#brand-block h2 {
+  margin: 0;
+  font-size: 28px;
+  color: #0070c0;
+}
+
+/* login block */
+#login-block {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  /* add the following code to center the block */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#login-block h3 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #0070c0;
+}
+
+#login-block .input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+#login-block input[type="submit"] {
+  background-color: #0070c0;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#login-block input[type="submit"]:hover {
+  background-color: #005daa;
+}
+
+/* main navigation */
+#main-nav {
+  background-color: #0070c0;
+  color: #fff;
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+
+#main-nav h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+#main-nav nav {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+#main-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#main-nav li.move-right {
+  margin-left: auto;
+}
+
+#main-nav li {
+  margin-right: 20px;
+}
+
+#main-nav li:last-child {
+  margin-right: 0;
+}
+
+#main-nav a {
+  color: #fff;
+}
+
+#main-nav a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* container and wrapper */
+#container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+#wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* content area */
+#content {
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* form styling */
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"], input[type="email"], input[type="password"], select, textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  background-color: #0070c0;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #005daa;
+}
+
+/* table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  padding: 8px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+th {
+  background-color: #0070c0;
+  color: #fff;
+}
+
+/* Style for second-submenu container */
+#second-submenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Style for submenu navigation */
+#second-submenu nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#second-submenu nav ul li {
+  margin-right: 20px;
+}
+
+#second-submenu nav ul li:last-child {
+  margin-right: 0;
+}
+
+#second-submenu nav ul li a {
+  color: #333;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#second-submenu nav ul li a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Style for content container */
+#content {
+  padding: 20px;
+}
